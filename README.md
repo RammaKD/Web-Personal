@@ -1,7 +1,7 @@
 
 # WebPersonal
 
-Portfolio personal.
+Portfolio personal desarrollado con Angular en donde muestro mis proyectos y habilidades como desarrollador web.
 
 ## Links
 
@@ -11,3 +11,4 @@ Portfolio personal.
 </a>
 <a href="https://www.linkedin.com/in/ramiro-barrios-alfonzo-775770345">LinkedIn</a>
 
+<a href="https://alfonzoramirodev.vercel.app/">Portfolio</a>
