@@ -1,0 +1,137 @@
+
+.nav {
+	position: fixed;
+	inset: 0 0 auto 0;
+	z-index: 50;
+	height: 72px;
+	background: rgba(11, 15, 20, 0.65);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid var(--border);
+}
+
+.nav-inner {
+	height: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+}
+
+.brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	min-width: 220px;
+}
+
+.avatar {
+	width: 52px;
+	height: 52px;
+	border-radius: 0;
+	object-fit: contain;
+	background: transparent;
+	border: none;
+}
+
+.brand-text {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.1;
+}
+
+.name {
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.role {
+	font-size: 13px;
+	color: var(--muted);
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+}
+
+.menu-btn {
+	display: none;
+	appearance: none;
+	border: 1px solid var(--border);
+	background: rgba(255, 255, 255, 0.04);
+	color: var(--text);
+	border-radius: 12px;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.menu-btn:hover {
+	background: rgba(255, 255, 255, 0.09);
+	border-color: rgba(255, 255, 255, 0.14);
+}
+
+.burger {
+	width: 20px;
+	height: 14px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.burger span {
+	height: 2px;
+	width: 100%;
+	border-radius: 999px;
+	background: currentColor;
+	opacity: 0.9;
+}
+
+.mobile-menu {
+	display: none;
+	width: min(var(--container), calc(100% - 48px));
+	margin: 10px auto 0;
+	padding: 10px;
+	border-radius: 14px;
+	border: 1px solid var(--border);
+	background: rgba(11, 15, 20, 0.95);
+	backdrop-filter: blur(10px);
+}
+
+.mobile-link {
+	display: block;
+	padding: 12px 12px;
+	border-radius: 12px;
+	color: var(--muted);
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.mobile-link:hover {
+	color: var(--text);
+	background: rgba(255, 255, 255, 0.06);
+}
+
+.link {
+	color: var(--muted);
+	font-weight: 600;
+	font-size: 15px;
+	padding: 10px 6px;
+	border-radius: 10px;
+	transition: background 120ms ease, color 120ms ease;
+}
+
+.link:hover {
+	color: var(--text);
+	background: rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 720px) {
+	.brand-text .role { display: none; }
+	.links { display: none; }
+	.menu-btn { display: inline-flex; align-items: center; justify-content: center; }
+	.mobile-menu { display: block; }
+}
+

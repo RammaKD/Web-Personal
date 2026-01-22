@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="projects-head">
+        <p class="eyebrow">PROYECTOS</p>
+        <h2 class="title">Mis proyectos destacados</h2>
+
+        <!-- Filtros temporalmente desactivados (se reactivarán más adelante) -->
+        @if (false && showFilters()) {
+            <div class="tabs" role="tablist" aria-label="Filtro de proyectos">
+                <button class="tab" type="button" role="tab" [attr.aria-selected]="activeFilter() === 'all'" (click)="setFilter('all')">Todos</button>
+                <button class="tab" type="button" role="tab" [attr.aria-selected]="activeFilter() === 'fullstack'" (click)="setFilter('fullstack')">Full Stack</button>
+                <button class="tab" type="button" role="tab" [attr.aria-selected]="activeFilter() === 'frontend'" (click)="setFilter('frontend')">Frontend</button>
+                <button class="tab" type="button" role="tab" [attr.aria-selected]="activeFilter() === 'backend'" (click)="setFilter('backend')">Backend</button>
+            </div>
+        }
+    </div>
+
+    <div class="grid">
+        @for (p of filteredProjects(); track p.title) {
+            <article class="card">
+                <div class="card-top">
+                    <span class="tag">{{ p.categoryLabel }}</span>
+                </div>
+                <h3 class="card-title">{{ p.title }}</h3>
+                <p class="card-desc">{{ p.description }}</p>
+
+                <div class="card-actions">
+                    @if (p.links.demo) {
+                        <a class="btn" [href]="p.links.demo" target="_blank" rel="noreferrer">Ver proyecto →</a>
+                    }
+                    @if (p.links.code) {
+                        <a class="btn" [href]="p.links.code" target="_blank" rel="noreferrer">Código →</a>
+                    }
+                </div>
+            </article>
+        }
+    </div>
+</div>

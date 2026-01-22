@@ -1,0 +1,42 @@
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#home" aria-label="Ir al inicio">
+        <img class="avatar" src="/assets/imgs/logopersonal.png" alt="Logo personal" />
+      <span class="brand-text">
+        <span class="name">Alfonzo Ramiro</span>
+        <span class="role">Software Developer</span>
+      </span>
+    </a>
+
+    <nav class="links" aria-label="Navegación principal">
+      <a class="link" href="#home">Inicio</a>
+      <a class="link" href="#projects">Proyectos</a>
+      <a class="link" href="#aboutme">Sobre mí</a>
+      <a class="link" href="#skills">Skills</a>
+    </nav>
+
+    <button
+      class="menu-btn"
+      type="button"
+      aria-label="Abrir menú"
+      [attr.aria-expanded]="isMenuOpen()"
+      aria-controls="mobile-menu"
+      (click)="toggleMenu()"
+    >
+      <span class="burger" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+  </div>
+
+  @if (isMenuOpen()) {
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Navegación móvil">
+      <a class="mobile-link" href="#home" (click)="closeMenu()">Inicio</a>
+      <a class="mobile-link" href="#projects" (click)="closeMenu()">Proyectos</a>
+      <a class="mobile-link" href="#aboutme" (click)="closeMenu()">Sobre mí</a>
+      <a class="mobile-link" href="#skills" (click)="closeMenu()">Skills</a>
+    </nav>
+  }
+</header>

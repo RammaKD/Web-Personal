@@ -1,0 +1,74 @@
+
+.skills {
+	display: grid;
+	gap: 10px;
+}
+
+.eyebrow {
+	margin: 0;
+	color: rgba(79, 140, 255, 0.8);
+	font-weight: 800;
+	font-size: 14px;
+	letter-spacing: 0.14em;
+}
+
+.title {
+	margin: 0;
+	font-size: 28px;
+	letter-spacing: -0.02em;
+}
+
+.pill-row {
+	margin-top: 6px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+	gap: 18px;
+	justify-items: stretch;
+}
+
+.pill {
+	border: 1px solid var(--border);
+	background: rgba(255, 255, 255, 0.04);
+	border-radius: 999px;
+	padding: 8px;
+	width: 100%;
+	height: 52px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.pill-icon {
+	width: 24px;
+	height: 24px;
+	display: block;
+	filter: invert(1);
+	opacity: 0.92;
+}
+
+.pill::after {
+	content: attr(data-label);
+	position: absolute;
+	left: 50%;
+	bottom: calc(100% + 10px);
+	transform: translateX(-50%);
+	padding: 6px 10px;
+	border-radius: 999px;
+	border: 1px solid var(--border);
+	background: rgba(255, 255, 255, 0.14);
+	-webkit-backdrop-filter: blur(6px);
+	backdrop-filter: blur(6px);
+	color: var(--text);
+	font-size: 12px;
+	font-weight: 700;
+	white-space: nowrap;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 10;
+}
+
+.pill:hover::after {
+	opacity: 1;
+}
+
