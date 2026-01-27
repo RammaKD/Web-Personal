@@ -35,6 +35,17 @@ export class Projects {
         code: 'https://github.com/RammaKD/RedSocial-Front',
       },
     },
+    {
+      title: 'Sala de juegos',
+      description:
+        'App hecha con Angular + Supabase (Auth + DB). Los usuarios deben loguearse para jugar: incluye 4 minijuegos y una tabla de puntuaciones con el Top 10 por juego.',
+      category: 'fullstack',
+      categoryLabel: 'FULLSTACK',
+      links: {
+        demo: 'https://sala-de-juegos-flame.vercel.app/',
+        code: 'https://github.com/RammaKD/Sala-de-juegos.git',
+      },
+    },
     // {
     //   title: 'TaskBoard (demo)',
     //   description:
