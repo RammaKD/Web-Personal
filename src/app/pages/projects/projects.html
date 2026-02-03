@@ -21,6 +21,13 @@
                     <span class="tag">{{ p.categoryLabel }}</span>
                 </div>
                 <h3 class="card-title">{{ p.title }}</h3>
+
+                <div class="tech" aria-label="Tecnologías">
+                    @for (t of p.tech; track t) {
+                        <span class="chip">{{ t }}</span>
+                    }
+                </div>
+
                 <p class="card-desc">{{ p.description }}</p>
 
                 <div class="card-actions">

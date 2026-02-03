@@ -8,6 +8,7 @@ type Project = {
   description: string;
   category: ProjectCategory;
   categoryLabel: string;
+  tech: string[];
   links: {
     demo?: string;
     code?: string;
@@ -27,9 +28,10 @@ export class Projects {
     {
       title: 'Top!',
       description:
-        'Red social desarrollada con Angular y NestJS. Permite perfiles, publicaciones y conexión entre usuarios, similar a X.',
+        'Red social estilo X: permite perfiles, publicaciones y conexión entre usuarios.',
       category: 'fullstack',
       categoryLabel: 'FULLSTACK',
+      tech: ['Angular', 'NestJS', 'MongoDB'],
       links: {
         demo: 'https://red-social-front-two.vercel.app/',
         code: 'https://github.com/RammaKD/RedSocial-Front',
@@ -38,9 +40,10 @@ export class Projects {
     {
       title: 'Sala de juegos',
       description:
-        'App hecha con Angular + Supabase (Auth + DB). Los usuarios deben loguearse para jugar: incluye 4 minijuegos y una tabla de puntuaciones con el Top 10 por juego.',
+        'Sala de juegos con login: incluye 4 minijuegos y una tabla de puntuaciones con el Top 10 por juego.',
       category: 'fullstack',
       categoryLabel: 'FULLSTACK',
+      tech: ['Angular', 'Supabase', 'PostgreSQL'],
       links: {
         demo: 'https://sala-de-juegos-flame.vercel.app/',
         code: 'https://github.com/RammaKD/Sala-de-juegos.git',
