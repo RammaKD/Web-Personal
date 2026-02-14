@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "brandAria": "Go to home",
+    "logoAlt": "Personal logo",
+    "role": "Software Developer",
+    "primary": "Primary navigation",
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "skills": "Skills",
+    "menuOpen": "Open menu",
+    "mobile": "Mobile navigation",
+    "langSwitch": "Switch language"
+  },
+  "hero": {
+    "titleRole": "Software Developer",
+    "subtitle": "Full Stack Angular & NestJS",
+    "ctaLinkedIn": "LinkedIn",
+    "ctaGitHub": "GitHub"
+  },
+  "projects": {
+    "eyebrow": "PROJECTS",
+    "title": "Featured projects",
+    "filterAria": "Project filters",
+    "filters": {
+      "all": "All",
+      "fullstack": "Full Stack",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+    "techAria": "Technologies",
+    "view": "View project ->",
+    "code": "Code ->"
+  },
+  "projectsList": {
+    "projectManager": {
+      "title": "Project Manager",
+      "description": "Trello/Jira-style project management system with auth, Kanban boards, and drag & drop tasks."
+    },
+    "top": {
+      "title": "Top!",
+      "description": "X-style social network with profiles, posts, and user connections."
+    },
+    "gameRoom": {
+      "title": "Game room",
+      "description": "Game room with login: includes 4 minigames and a Top 10 leaderboard per game."
+    }
+  },
+  "about": {
+    "eyebrow": "ABOUT ME",
+    "title": "A bit more about me",
+    "p1": "Hello, my name is Ramiro and I build complete web applications, from the frontend experience to the business logic and communication with backend servers.",
+    "p2": "I started programming in high school. At a school fair, together with one of my computer science teachers, I built a video game in Scratch. That project was a turning point: it showed me how fun it is to create things from scratch and solve problems creatively.",
+    "p3": "That teacher played an important role in my choice to become a developer: he pushed me, motivated me to keep learning, and helped me see programming in a different way. Since then, I try to apply that mindset in every project: build with intention, improve iteration by iteration, and care about details.",
+    "photoAlt": "Me with the game I built for the school fair",
+    "photoCaption": "Photo with the game I built for the school fair in my first year of high school."
+  },
+  "skills": {
+    "eyebrow": "SKILLS",
+    "title": "Technologies and tools",
+    "aria": "Skills list"
+  },
+  "footer": {
+    "developedBy": "Developed by",
+    "socialAria": "Social links",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

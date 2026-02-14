@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "brandAria": "Ir al inicio",
+    "logoAlt": "Logo personal",
+    "role": "Desarrollador de software",
+    "primary": "Navegacion principal",
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mi",
+    "skills": "Skills",
+    "menuOpen": "Abrir menu",
+    "mobile": "Navegacion movil",
+    "langSwitch": "Cambiar idioma"
+  },
+  "hero": {
+    "titleRole": "Desarrollador de software",
+    "subtitle": "Full Stack Angular y NestJS",
+    "ctaLinkedIn": "LinkedIn",
+    "ctaGitHub": "GitHub"
+  },
+  "projects": {
+    "eyebrow": "PROYECTOS",
+    "title": "Mis proyectos destacados",
+    "filterAria": "Filtro de proyectos",
+    "filters": {
+      "all": "Todos",
+      "fullstack": "Full Stack",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+    "techAria": "Tecnologias",
+    "view": "Ver proyecto ->",
+    "code": "Codigo ->"
+  },
+  "projectsList": {
+    "projectManager": {
+      "title": "Project Manager",
+      "description": "Sistema de gestion de proyectos tipo Trello/Jira con autenticacion, tableros Kanban y tareas con drag & drop."
+    },
+    "top": {
+      "title": "Top!",
+      "description": "Red social estilo X: permite perfiles, publicaciones y conexion entre usuarios."
+    },
+    "gameRoom": {
+      "title": "Sala de juegos",
+      "description": "Sala de juegos con login: incluye 4 minijuegos y una tabla de puntuaciones con el Top 10 por juego."
+    }
+  },
+  "about": {
+    "eyebrow": "SOBRE MI",
+    "title": "Un poco mas sobre mi",
+    "p1": "Hola, mi nombre es Ramiro y me dedico a desarrollar aplicaciones web completas, desde la experiencia en el frontend hasta la implementacion de la logica de negocio y la comunicacion con los servidores en el backend.",
+    "p2": "Empece en el mundo de la programacion en la secundaria. En una feria institucional, junto a uno de mis profesores de informatica, desarrolle un videojuego en Scratch. Ese proyecto fue un punto de inflexion para mi: me mostro lo divertido que puede ser crear cosas desde cero y resolver problemas con creatividad.",
+    "p3": "Ese profesor tuvo un rol muy importante en mi eleccion como desarrollador: me impulso, me motivo a seguir aprendiendo y me ayudo a ver la programacion de otra manera. Desde entonces, busco aplicar esa misma mentalidad en cada proyecto: construir con criterio, mejorar iteracion a iteracion y cuidar los detalles.",
+    "photoAlt": "Foto mia con el juego que desarrolle para la feria institucional",
+    "photoCaption": "Foto con el juego que desarrolle para la feria institucional en 1er ano de secundaria."
+  },
+  "skills": {
+    "eyebrow": "SKILLS",
+    "title": "Tecnologias y herramientas",
+    "aria": "Lista de habilidades"
+  },
+  "footer": {
+    "developedBy": "Desarrollado por",
+    "socialAria": "Redes sociales",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

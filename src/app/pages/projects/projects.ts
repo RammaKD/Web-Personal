@@ -1,11 +1,12 @@
 import { Component, computed, signal } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 type ProjectCategory = 'fullstack' | 'frontend' | 'backend';
 type ProjectFilter = 'all' | ProjectCategory;
 
 type Project = {
-  title: string;
-  description: string;
+  titleKey: string;
+  descriptionKey: string;
   category: ProjectCategory;
   categoryLabel: string;
   tech: string[];
@@ -17,7 +18,7 @@ type Project = {
 
 @Component({
   selector: 'app-projects',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './projects.html',
   styleUrl: './projects.css',
 })
@@ -26,9 +27,19 @@ export class Projects {
 
   readonly projects = signal<Project[]>([
     {
-      title: 'Top!',
-      description:
-        'Red social estilo X: permite perfiles, publicaciones y conexión entre usuarios.',
+      titleKey: 'projectsList.projectManager.title',
+      descriptionKey: 'projectsList.projectManager.description',
+      category: 'fullstack',
+      categoryLabel: 'FULLSTACK',
+      tech: ['Angular', 'NestJS', 'PostgreSQL'],
+      links: {
+        demo: 'https://project-manager-zeta-ten.vercel.app',
+        code: 'https://github.com/RammaKD/Project-Manager.git',
+      },
+    },
+    {
+      titleKey: 'projectsList.top.title',
+      descriptionKey: 'projectsList.top.description',
       category: 'fullstack',
       categoryLabel: 'FULLSTACK',
       tech: ['Angular', 'NestJS', 'MongoDB'],
@@ -38,9 +49,8 @@ export class Projects {
       },
     },
     {
-      title: 'Sala de juegos',
-      description:
-        'Sala de juegos con login: incluye 4 minijuegos y una tabla de puntuaciones con el Top 10 por juego.',
+      titleKey: 'projectsList.gameRoom.title',
+      descriptionKey: 'projectsList.gameRoom.description',
       category: 'fullstack',
       categoryLabel: 'FULLSTACK',
       tech: ['Angular', 'Supabase', 'PostgreSQL'],
@@ -50,9 +60,8 @@ export class Projects {
       },
     },
     // {
-    //   title: 'TaskBoard (demo)',
-    //   description:
-    //     'Tablero Kanban simple para organizar tareas con columnas y drag & drop. Ejemplo para mostrar layout de tarjetas en la sección de proyectos.',
+    //   titleKey: 'projectsList.taskboard.title',
+    //   descriptionKey: 'projectsList.taskboard.description',
     //   category: 'frontend',
     //   categoryLabel: 'FRONTEND',
     //   links: {

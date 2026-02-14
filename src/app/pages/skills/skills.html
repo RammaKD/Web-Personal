@@ -1,8 +1,8 @@
 <div class="container skills">
-    <p class="eyebrow">SKILLS</p>
-    <h2 class="title">Tecnologías y herramientas</h2>
+    <p class="eyebrow">{{ 'skills.eyebrow' | translate }}</p>
+    <h2 class="title">{{ 'skills.title' | translate }}</h2>
 
-    <div class="pill-row" aria-label="Lista de habilidades">
+    <div class="pill-row" [attr.aria-label]="'skills.aria' | translate">
         <span class="pill" title="Angular" data-label="Angular"><img class="pill-icon" src="/assets/icons/angular.svg" alt="Angular" /></span>
         <span class="pill" title="NestJS" data-label="NestJS"><img class="pill-icon" src="/assets/icons/nestjs.svg" alt="NestJS" /></span>
         <span class="pill" title="TypeScript" data-label="TypeScript"><img class="pill-icon" src="/assets/icons/typescript.svg" alt="TypeScript" /></span>

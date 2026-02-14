@@ -1,7 +1,33 @@
 
 # WebPersonal
 
-Portfolio personal desarrollado con Angular en donde muestro mis proyectos y habilidades como desarrollador web.
+Portfolio personal desarrollado con Angular donde muestro mis proyectos y habilidades como desarrollador web. 🚀
+
+## Deploy
+
+- 🌐 Live: https://alfonzoramirodev.vercel.app/
+
+## Stack
+
+- ⚙️ Angular (standalone components)
+- 🎨 CSS
+- 🧰 TypeScript
+
+## Secciones
+
+- 🏠 Home / Hero
+- 🧩 Proyectos destacados
+- 👤 Sobre mi
+- 🧪 Skills
+
+## Instalacion y uso
+
+```bash
+npm install
+ng serve
+```
+
+La app estara disponible en http://localhost:4200
 
 ## Links
 

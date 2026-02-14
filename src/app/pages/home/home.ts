@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 import { Projects } from '../projects/projects';
 import { Skills } from '../skills/skills';
 import { Aboutme } from '../aboutme/aboutme';
 
 @Component({
   selector: 'app-home',
-  imports: [Aboutme, Projects, Skills],
+  imports: [Aboutme, Projects, Skills, TranslateModule],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
