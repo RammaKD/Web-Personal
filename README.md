@@ -1,7 +1,7 @@
 
 # WebPersonal
 
-Portfolio personal desarrollado con Angular donde muestro mis proyectos y habilidades como desarrollador web. 🚀
+Portfolio personal desarrollado con Angular donde muestro mi experiencia, proyectos y habilidades como desarrollador web.
 
 ## Deploy
 
@@ -16,18 +16,19 @@ Portfolio personal desarrollado con Angular donde muestro mis proyectos y habili
 ## Secciones
 
 - 🏠 Home / Hero
+- 💼 Experiencia profesional
 - 🧩 Proyectos destacados
-- 👤 Sobre mi
-- 🧪 Skills
+- 👤 Sobre mí
+- 🧪 Habilidades
 
-## Instalacion y uso
+## Instalación y uso
 
 ```bash
 npm install
-ng serve
+npm start
 ```
 
-La app estara disponible en http://localhost:4200
+La app estará disponible en http://localhost:4200
 
 ## Links
 
