@@ -6,6 +6,7 @@
     "primary": "Primary navigation",
     "home": "Home",
     "projects": "Projects",
+    "experience": "Experience",
     "about": "About",
     "skills": "Skills",
     "menuOpen": "Open menu",
@@ -16,7 +17,8 @@
     "titleRole": "Software Developer",
     "subtitle": "Full Stack Angular & NestJS",
     "ctaLinkedIn": "LinkedIn",
-    "ctaGitHub": "GitHub"
+    "ctaGitHub": "GitHub",
+    "ctaCv": "Download CV"
   },
   "projects": {
     "eyebrow": "PROJECTS",
@@ -33,6 +35,14 @@
     "code": "Code ->"
   },
   "projectsList": {
+    "buenProvecho": {
+      "title": "Buen Provecho",
+      "description": "Complete mobile application for restaurant management, with workflows for customers, employees, supervisors, and owners. Built with Angular, Ionic, Capacitor, and Supabase."
+    },
+    "whatsappRotator": {
+      "title": "WhatsApp Rotator",
+      "description": "Admin panel for managing the WhatsApp numbers used by a rotator. It allows adding, editing, and deleting numbers stored in Supabase; redirection is handled through an Edge Function."
+    },
     "projectManager": {
       "title": "Project Manager",
       "description": "Trello/Jira-style project management system with auth, Kanban boards, and drag & drop tasks."
@@ -45,6 +55,25 @@
       "title": "Game room",
       "description": "Game room with login: includes 4 minigames and a Top 10 leaderboard per game."
     }
+  },
+  "experience": {
+    "eyebrow": "EXPERIENCE",
+    "title": "Professional experience",
+    "role": "Assistant university professor",
+    "organization": "National Technological University",
+    "contract": "Temporary contract",
+    "period": "Mar. 2026 - Jul. 2026 · 5 months",
+    "location": "Avellaneda, Buenos Aires Province, Argentina · Remote",
+    "description": "Teaching assistant in the Programming Technician program, supporting classes and the academic development of students in Programming IV.",
+    "responsibilities": "Responsibilities",
+    "items": [
+      "Taking attendance and tracking student progress",
+      "Supporting students in class with questions and practical exercises",
+      "Teaching selected classes within the academic program",
+      "Grading practical assignments and midterm assessments",
+      "Supporting students outside class hours with materials and guidance",
+      "Collaborating with the lead professor on content planning and delivery"
+    ]
   },
   "about": {
     "eyebrow": "ABOUT ME",

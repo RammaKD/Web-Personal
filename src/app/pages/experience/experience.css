@@ -1,0 +1,91 @@
+.experience {
+  display: grid;
+  gap: 18px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: rgba(79, 140, 255, 0.8);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.14em;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+}
+
+.experience-card {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+
+.experience-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+h3,
+h4 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.organization,
+.description,
+.meta,
+ul {
+  color: var(--muted);
+}
+
+.organization {
+  margin: 6px 0 0;
+  font-size: 16px;
+}
+
+.meta {
+  display: grid;
+  gap: 4px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.description {
+  max-width: 78ch;
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+ul {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .experience-heading {
+    display: grid;
+    gap: 14px;
+  }
+
+  .meta {
+    text-align: left;
+  }
+}

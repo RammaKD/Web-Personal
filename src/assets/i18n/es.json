@@ -6,6 +6,7 @@
     "primary": "Navegacion principal",
     "home": "Inicio",
     "projects": "Proyectos",
+    "experience": "Experiencia",
     "about": "Sobre mi",
     "skills": "Skills",
     "menuOpen": "Abrir menu",
@@ -16,7 +17,8 @@
     "titleRole": "Desarrollador de software",
     "subtitle": "Full Stack Angular y NestJS",
     "ctaLinkedIn": "LinkedIn",
-    "ctaGitHub": "GitHub"
+    "ctaGitHub": "GitHub",
+    "ctaCv": "Descargar CV"
   },
   "projects": {
     "eyebrow": "PROYECTOS",
@@ -33,6 +35,14 @@
     "code": "Codigo ->"
   },
   "projectsList": {
+    "buenProvecho": {
+      "title": "Buen Provecho",
+      "description": "Aplicacion movil completa para la gestion integral de un restaurante, con flujos para clientes, empleados, supervisores y dueños. Desarrollada con Angular, Ionic, Capacitor y Supabase."
+    },
+    "whatsappRotator": {
+      "title": "WhatsApp Rotator",
+      "description": "Panel de administracion para gestionar los numeros de WhatsApp que utiliza un rotador. Permite agregar, modificar y eliminar numeros almacenados en Supabase; la redireccion se realiza mediante una Edge Function."
+    },
     "projectManager": {
       "title": "Project Manager",
       "description": "Sistema de gestion de proyectos tipo Trello/Jira con autenticacion, tableros Kanban y tareas con drag & drop."
@@ -45,6 +55,25 @@
       "title": "Sala de juegos",
       "description": "Sala de juegos con login: incluye 4 minijuegos y una tabla de puntuaciones con el Top 10 por juego."
     }
+  },
+  "experience": {
+    "eyebrow": "EXPERIENCIA",
+    "title": "Experiencia profesional",
+    "role": "Profesor universitario asistente",
+    "organization": "Universidad Tecnologica Nacional",
+    "contract": "Contrato temporal",
+    "period": "mar. 2026 - jul. 2026 · 5 meses",
+    "location": "Avellaneda, Provincia de Buenos Aires, Argentina · En remoto",
+    "description": "Asistente docente en la Tecnicatura en Programacion, colaborando en el dictado de clases y el acompañamiento academico de estudiantes para la materia Programacion IV.",
+    "responsibilities": "Responsabilidades",
+    "items": [
+      "Toma de asistencia y seguimiento del progreso de los alumnos",
+      "Soporte en clase para resolver dudas y ejercicios practicos",
+      "Dictado de clases puntuales dentro del programa academico",
+      "Correccion de trabajos practicos y evaluaciones parciales",
+      "Acompañamiento fuera del horario de clase, brindando material y orientacion",
+      "Colaboracion con el profesor titular en la organizacion y desarrollo de contenidos"
+    ]
   },
   "about": {
     "eyebrow": "SOBRE MI",

@@ -27,6 +27,26 @@ export class Projects {
 
   readonly projects = signal<Project[]>([
     {
+      titleKey: 'projectsList.buenProvecho.title',
+      descriptionKey: 'projectsList.buenProvecho.description',
+      category: 'fullstack',
+      categoryLabel: 'FULLSTACK',
+      tech: ['Angular', 'Ionic', 'Capacitor', 'Supabase'],
+      links: {
+        code: 'https://github.com/RammaKD/DevRecipes-2026.git',
+      },
+    },
+    {
+      titleKey: 'projectsList.whatsappRotator.title',
+      descriptionKey: 'projectsList.whatsappRotator.description',
+      category: 'fullstack',
+      categoryLabel: 'FULLSTACK',
+      tech: ['Supabase', 'Edge Functions', 'PostgreSQL'],
+      links: {
+        code: 'https://github.com/RammaKD/wsp-rotator.git',
+      },
+    },
+    {
       titleKey: 'projectsList.projectManager.title',
       descriptionKey: 'projectsList.projectManager.description',
       category: 'fullstack',

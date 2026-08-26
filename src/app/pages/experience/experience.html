@@ -1,0 +1,26 @@
+<div class="container experience">
+  <p class="eyebrow">{{ 'experience.eyebrow' | translate }}</p>
+  <h2 class="title">{{ 'experience.title' | translate }}</h2>
+
+  <article class="experience-card">
+    <div class="experience-heading">
+      <div>
+        <h3>{{ 'experience.role' | translate }}</h3>
+        <p class="organization">{{ 'experience.organization' | translate }}</p>
+      </div>
+      <div class="meta">
+        <span>{{ 'experience.contract' | translate }}</span>
+        <span>{{ 'experience.period' | translate }}</span>
+        <span>{{ 'experience.location' | translate }}</span>
+      </div>
+    </div>
+
+    <p class="description">{{ 'experience.description' | translate }}</p>
+    <h4>{{ 'experience.responsibilities' | translate }}</h4>
+    <ul>
+      @for (item of ('experience.items' | translate); track item) {
+        <li>{{ item }}</li>
+      }
+    </ul>
+  </article>
+</div>

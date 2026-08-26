@@ -10,6 +10,7 @@
 
     <nav class="links" [attr.aria-label]="'nav.primary' | translate">
       <a class="link" href="#home">{{ 'nav.home' | translate }}</a>
+      <a class="link" href="#experience">{{ 'nav.experience' | translate }}</a>
       <a class="link" href="#projects">{{ 'nav.projects' | translate }}</a>
       <a class="link" href="#aboutme">{{ 'nav.about' | translate }}</a>
       <a class="link" href="#skills">{{ 'nav.skills' | translate }}</a>
@@ -45,6 +46,7 @@
   @if (isMenuOpen()) {
     <nav id="mobile-menu" class="mobile-menu" [attr.aria-label]="'nav.mobile' | translate">
       <a class="mobile-link" href="#home" (click)="closeMenu()">{{ 'nav.home' | translate }}</a>
+      <a class="mobile-link" href="#experience" (click)="closeMenu()">{{ 'nav.experience' | translate }}</a>
       <a class="mobile-link" href="#projects" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
       <a class="mobile-link" href="#aboutme" (click)="closeMenu()">{{ 'nav.about' | translate }}</a>
       <a class="mobile-link" href="#skills" (click)="closeMenu()">{{ 'nav.skills' | translate }}</a>

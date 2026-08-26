@@ -7,11 +7,15 @@
     <p class="hero-subtitle">{{ 'hero.subtitle' | translate }}</p>
 
     <div class="hero-cta">
-      <!-- <a class="btn" href="/assets/cv.pdf" download>Descargar CV</a> -->
       <a class="btn primary" href="https://www.linkedin.com/in/ramiro-barrios-alfonzo-775770345" target="_blank" rel="noreferrer">{{ 'hero.ctaLinkedIn' | translate }} →</a>
       <a class="btn" href="https://github.com/RammaKD" target="_blank" rel="noreferrer">{{ 'hero.ctaGitHub' | translate }} →</a>
+      <a class="btn" href="/assets/cv.pdf" download>{{ 'hero.ctaCv' | translate }}</a>
     </div>
   </div>
+</section>
+
+<section id="experience" class="section">
+  <app-experience></app-experience>
 </section>
 
 <section id="projects" class="section">
