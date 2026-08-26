@@ -27,10 +27,10 @@
 .avatar {
 	width: 52px;
 	height: 52px;
-	border-radius: 0;
-	object-fit: contain;
-	background: transparent;
-	border: none;
+	border-radius: 50%;
+	object-fit: cover;
+	background: var(--surface);
+	border: 1px solid var(--border);
 }
 
 .brand-text {
